@@ -13,7 +13,7 @@ import java.util.stream.IntStream;
 @State(Scope.Benchmark)
 public class JavaBench {
 
-    final List<Integer> numbers = IntStream.range(0, 10_000_00)
+    final List<Integer> numbers = IntStream.range(0, 10_000_000)
             .boxed()
             .collect(Collectors.toList());
 
